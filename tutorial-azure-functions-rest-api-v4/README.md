@@ -126,7 +126,7 @@ After the deployment is completed, click on `Go to resource`.
 In this step we clone the example app to VS Code. Copy the string below.
 
 ```
-https://github.com/allardvanderouw/azure-function-app-rest-example.git
+https://github.com/allardvanderouw-amis/azure-function-app-rest-example.git
 ```
 
 This is a modified version of the "Create Function" code of the "Azure Functions" VS Code extension.
@@ -359,7 +359,7 @@ Response body:
 
 ```json
 {
-  "odata.metadata": "https://saallardvanderouw.table.core.windows.net/$metadata#things/@Element",
+  "odata.metadata": "https://saallardfav4api.table.core.windows.net/$metadata#things/@Element",
   "etag": "W/\"datetime'2023-10-22T13%3A39%3A59.1889147Z'\"",
   "partitionKey": "71d5adad-c8b7-4ef3-8ab2-2d82eaacbf69",
   "rowKey": "71d5adad-c8b7-4ef3-8ab2-2d82eaacbf69",
