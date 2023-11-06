@@ -352,7 +352,7 @@ In Azure you can also see the two things in the storage browser:
 Request URL:
 
 ```
-GET https://<your function app name>.azurewebsites.net/api/things/71d5adad-c8b7-4ef3-8ab2-2d82eaacbf69
+GET https://<your function app name>.azurewebsites.net/api/things/<id of thing>
 ```
 
 Response body:
@@ -375,7 +375,7 @@ Response body:
 Request URL:
 
 ```
-PUT https://<your function app name>.azurewebsites.net/api/things/71d5adad-c8b7-4ef3-8ab2-2d82eaacbf69
+PUT https://<your function app name>.azurewebsites.net/api/things/<id of thing>
 ```
 
 Request body:
@@ -405,7 +405,7 @@ The thing is now modified. You can review this through a GET request or with the
 Request URL:
 
 ```
-DELETE https://<your function app name>.azurewebsites.net/api/things/71d5adad-c8b7-4ef3-8ab2-2d82eaacbf69
+DELETE https://<your function app name>.azurewebsites.net/api/things/<id of thing>
 ```
 
 Response:
