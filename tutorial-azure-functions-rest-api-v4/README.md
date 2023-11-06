@@ -1,6 +1,8 @@
 # Tutorial: Create a REST API with Azure Functions v4
 
-In this tutorial we will create a simple CRUD REST API to manage 'things' with Azure Functions (v4) using TypeScript, VS Code and Azure Table Storage. I chose Azure Table Storage because this is one of the easiest ways to store data in Azure with low costs ([pricing details](https://azure.microsoft.com/en-us/pricing/details/storage/tables/)) compared to a database. If you do not want to use Azure Table Storage, then you can change the implementation of the function app to any kind of storage provider like an SQL database or Cosmos DB.
+Welcome to this tutorial on building a RESTful API with Azure Functions v4. In this guide, we'll walk you through the steps to create a simple CRUD API using TypeScript, Visual Studio Code, and Azure Table Storage. This hands-on tutorial is suitable for both beginners and experienced developers, offering a quick path to creating your API on the Azure platform.
+
+I chose Azure Table Storage for this tutorial because this is one of the easiest ways to store data in Azure with low costs ([pricing details](https://azure.microsoft.com/en-us/pricing/details/storage/tables/)) compared to a database. If you do not want to use Azure Table Storage, then you can change the implementation of the function app to any kind of storage provider like an SQL database or Cosmos DB.
 
 The steps in this tutorial are:
 
@@ -427,3 +429,20 @@ If you got here without any (big) issues. Then it is time to celebrate to comple
 - Else you can clear the newly created resources, see the image below for the resources which are created during this tutorial
 
 ![resource-group-resources](images/90-resource-group-resources.png)
+
+## Wrapping it up
+
+In conclusion, this tutorial has walked you through the process of creating a REST API using Azure Functions v4, TypeScript, VS Code, and Azure Table Storage. We've covered the following steps:
+
+- Creating a resource group (optional) to manage your tutorial resources.
+- Setting up a storage account to store your data.
+- Creating a table within the storage account to hold your data.
+- Creating and configuring a function app to host your REST API.
+- Cloning the example app to your local environment using VS Code.
+- Deploying the example app to your function app in Azure.
+- Testing your function app with various API calls, including getting, creating, updating, and deleting "things."
+- Celebrating your successful completion of the tutorial.
+
+Once you've completed all the steps and tested your REST API, you can choose to clear the tutorial resources to keep your Azure environment tidy.
+
+If you have any questions or need further assistance, feel free to reach out for help. Good luck with your future Azure development projects!
