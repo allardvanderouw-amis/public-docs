@@ -1,6 +1,6 @@
-# Tutorial: Create a REST API with Azure Functions v4
+# Building a REST API with Azure Functions v4: A Step-by-Step Guide
 
-Welcome to this tutorial on building a RESTful API with Azure Functions v4. In this guide, we'll walk you through the steps to create a simple CRUD API using TypeScript, Visual Studio Code, and Azure Table Storage. This hands-on tutorial is suitable for both beginners and experienced developers, offering a quick path to creating your API on the Azure platform.
+Welcome to this guide on building a RESTful API with Azure Functions v4. In this guide, we'll walk you through the steps to create a simple CRUD API using TypeScript, Visual Studio Code, and Azure Table Storage. This hands-on tutorial is suitable for both beginners and experienced developers, offering a quick path to creating your API on the Azure platform.
 
 I chose Azure Table Storage for this tutorial because this is one of the easiest ways to store data in Azure with low costs ([pricing details](https://azure.microsoft.com/en-us/pricing/details/storage/tables/)) compared to a database. If you do not want to use Azure Table Storage, then you can change the implementation of the function app to any kind of storage provider like an SQL database or Cosmos DB.
 
